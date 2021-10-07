@@ -1,6 +1,14 @@
-# Digital Earth South Africa Sample Notebooks
+# Digital Earth South Africa (DESA) Sample Notebooks
 
-### NOTE: The contents of this repository have been adapted from the DE Africa sandbox notebooks project
+## NOTE
+
+The contents of this repository have been adapted from the DE Africa sandbox notebooks project. Most data and 
+notebooks have merely been adapted to use DESA data instead of DEA data. The original DEA sandbox notebooks are 
+available at:
+
+https://github.com/digitalearthafrica/deafrica-sandbox-notebooks
+
+---
 
 <img align="left" src="https://img.shields.io/badge/License-Apache%202.0-blue.svg">.
 
@@ -8,41 +16,11 @@ The Digital Earth South Africa (DESA) Notebooks repository (`deafrica-sandbox-no
 Python scripts and workflows for analysing [DESA] satellite data and derived products. This documentation is designed 
 to provide a guide to getting started with DESA, and to showcase the wide range of geospatial analyses that can be 
 achieved using DESA data and open-source software including [Open Data Cube] and [xarray].
-
-The repository is based around the following directory structure (from simple to increasingly complex applications):
-
-1. [Beginners_guide] - *Introductory notebooks aimed at introducing Jupyter Notebooks and how to load, plot and 
-   interact with DESA data*
-
-2. [Datasets] - *Notebooks introducing DE Africa's satellite datasets and derived products, including how to load each 
-   dataset and any special features of the data. Some external datasets that are useful for analysing and interpreting 
-   DESA products are also covered.*
-
-3. [Frequently_used_code] - *A recipe book of simple code examples demonstrating how to perform common geospatial 
-   analysis tasks using DESA and open-source software*
-
-4. [Real_world_examples] - *More complex workflows demonstrating how DE Africa can be used to address 
-   real-world problems*
-
-The supporting scripts and data for the notebooks are kept in the following directories:
-
-- [Scripts] - *Python functions and algorithms developed to assist in analysing DE Africa data (e.g. loading data, 
-  plotting, spatial analysis, machine learning)* 
-
-- [Supplementary_data] - *Supplementary files required for the analyses above (e.g. images, rasters, shapefiles, 
-  training data)*
   
 
-[Digital Earth South Africa (DESA)]: https://www.digitalearthafrica.org/
+[Digital Earth South Africa (DESA)]: https://desa.sansa.org.za/
 [Open Data Cube]: https://www.opendatacube.org/
 [xarray]: http://xarray.pydata.org/en/stable/
-
-[Beginners_guide]: https://github.com/digitalearthafrica/deafrica-sandbox-notebooks/tree/master/Beginners_guide
-[Datasets]: https://github.com/digitalearthafrica/deafrica-sandbox-notebooks/tree/master/Datasets
-[Frequently_used_code]: https://github.com/digitalearthafrica/deafrica-sandbox-notebooks/tree/master/Frequently_used_code
-[Real_world_examples]: https://github.com/digitalearthafrica/deafrica-sandbox-notebooks/tree/master/Real_world_examples
-[Scripts]: https://github.com/digitalearthafrica/deafrica-sandbox-notebooks/tree/master/Scripts
-[Supplementary_data]: https://github.com/GeoscienceAustralia/dea-notebooks/tree/master/Supplementary_data
 
 ---
 
